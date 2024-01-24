@@ -223,16 +223,17 @@ header .navbar li a:hover{
 }
 .temoignage .content{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    margin-top: 40px;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .temoignage .content .box{
     width: 340px;
-    margin: 20px;
+    margin: 40px 10px;
+    padding: 40px;
     background: #fff ;
     display: flex;
     justify-content: center;
@@ -258,8 +259,22 @@ header .navbar li a:hover{
     justify-content: center;
     align-items: center;
 }
-.temoignage .content .box h3{
-    color: #111;
-    font-weight: 400;
+.temoignage .content .box .text {
+    color: #666;
+    font-style: italic;
     text-align: center;
+}
+
+.temoignage .content .box .text h3{
+    color: #fb911f;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: 600;
+}
+.text-title {
+    color: #fff;
+}
+
+.title p {
+    color: #fff;
 }
