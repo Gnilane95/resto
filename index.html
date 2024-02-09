@@ -258,5 +258,11 @@
         <p>copyright 2024 <a href="#">Agathe ALI</a> projet html,css,js.</p>
     </div>
     <!-- end footer -->
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+    </script>
 </body>
 </html>
