@@ -370,6 +370,40 @@ header.sticky .navbar li a:hover{
 }
 
 @media (max-width: 991px) {
+    header, header.sticky{
+        padding: 10px 20px;
+    }
+    header .navbar li {
+        margin-left: 0px;
+    }
+    header .navbar li a {
+        /* margin-left: 0px; */
+        text-decoration: none;
+        color:#111;
+        font-size: 1.6em;
+        font-weight: 300;
+    }
+    .navbar{
+        display: none;
+    }
+    section{
+        padding: 20px;
+    }
+    .banner .content h2{
+        font-size: 2em;
+    }
+    .content p:nth-child(2){
+        font-size: 1.5em;
+    }
+    .experts{
+        margin-top: 0px;
+    }
+    .menu{
+        margin-top: 0px;
+    }
+    .row{
+        flex-direction: column;
+    }
     .row .col50{
         position: relative;
         width: 100%;
@@ -385,5 +419,23 @@ header.sticky .navbar li a:hover{
     }
     .row .col50 .img{
         margin-top: 15px;
+    }
+    p {
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .row .col50 h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .text p{
+        padding: 0px;
+        text-align: justify;
+        font-size: 1em;
+        font-weight: 400;
+    } 
+    .experts .content{
+        column-count: 2;
     }
 }
